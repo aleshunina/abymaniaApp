@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="lib/angular/angular.js"></script>
+    <script src="app.module.js"></script>
+    <script src="phone-list/phone-list.module.js"></script>
+    <script src="phone-list/phone-list.component.js"></script>
+    <script src="index-blocks/index-blocks.module.js"></script>
+    <script src="index-blocks/index-blocks.component.js"></script>
+  </head>
+  <body>
+
+    <!-- Use a custom component to render a list of phones -->
+    <index-blocks></index-blocks>
+
+  </body>
+</html>
